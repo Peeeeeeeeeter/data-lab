@@ -1,3 +1,4 @@
+// https://codehs.com/uploads/40679a9b7302f1bd6108334dd771c507
 /*
  Represents information about a NWS weather station
 */
@@ -30,6 +31,10 @@ public class WeatherStation {
    /* Determine if this weather station is located in the given state */
    public boolean isLocatedInState(String st) {
       return this.state.equals(st);
+   }
+   
+   public double getLat(){
+       return lat;
    }
    
 }
